@@ -98,7 +98,6 @@ def main():
         device = "cuda"
     else:
         device = "cpu"
-
     encode_position_fn = get_embedding_function(
         num_encoding_functions=cfg.models.coarse.num_encoding_fn_xyz,
         include_input=cfg.models.coarse.include_input_xyz,
