@@ -131,5 +131,3 @@ dmypy.json
 
 # Misc directories used to cache/log data
 cache/
-data/
-logs/
